@@ -25,4 +25,5 @@ with open("F2.txt", "r") as f2:
             if len(word) > len(longest_word):
                 longest_word = word
 
+
 print("Самое длинное слово:", longest_word)
