@@ -19,6 +19,7 @@ def create_subject_dict():
                 subject, activities = line.split(':')
                 activities = activities.split()
 
+
                 total_activities = 0
                 for activity in activities:
                     count, type = activity.split('(')
