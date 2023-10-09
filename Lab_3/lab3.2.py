@@ -15,6 +15,7 @@ for line in lines:
 
 results.sort(key=lambda x: x[1], reverse=True)
 
+
 print("Первое место:", results[0][0])
 print("Второе место:", results[1][0])
 print("Третье место:", results[2][0])
