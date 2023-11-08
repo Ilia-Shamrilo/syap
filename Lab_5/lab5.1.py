@@ -1,5 +1,6 @@
 # Вычисления с помощью NumPy
 # 6 уравнение
+
 import numpy as np
 
 while True:
