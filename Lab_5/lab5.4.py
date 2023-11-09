@@ -30,14 +30,11 @@ sorted_vals = np.sort(y_values)
 print("Отсортированные по возрастанию значения функции f(x): ", sorted_vals)
 
 plt.plot(a_values,y_values, label="f(x)")
-mean_line = np.full_like(a_values,mean_val)
+mean_line = np.full_like(a_values, mean_val)
 plt.plot(a_values, mean_line, label="среднее значение")
-plt.legend(loc = "lower right")
+plt.legend(loc="lower right")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.title("График функции f(x) + график среднего значения")
 plt.grid(True)
 plt.show()
-
-
-
