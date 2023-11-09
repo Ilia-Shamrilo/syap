@@ -33,7 +33,3 @@ func(Z, Y, Z)
 
 Z = 2 + 2 * X + 2 * Y -X ** 2 - Y ** 2
 func(Z, Y, Z)
-
-
-
-
