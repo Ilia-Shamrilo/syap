@@ -58,7 +58,6 @@ class StartWindow(QtWidgets.QMainWindow):
         self.question_text = QtWidgets.QLabel(self)
         self.question_text.setGeometry(215, 50, 300, 200)
         self.question_text.setStyleSheet("color:white")
-        # self.question_text.setWordWrap(True)
         self.question_text.hide()
         self.line = QtWidgets.QLineEdit(self)
         self.line.setFocus()
